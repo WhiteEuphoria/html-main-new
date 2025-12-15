@@ -33360,3 +33360,40 @@ Did you mean one of these?
 #76 /var/www/html/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
 #77 {main}
 "} 
+[2025-12-15 14:53:03] production.ERROR: Command "livewire:discover" is not defined.
+
+Did you mean one of these?
+    livewire:attribute
+    livewire:configure-s3-upload-cleanup
+    livewire:copy
+    livewire:delete
+    livewire:form
+    livewire:layout
+    livewire:make
+    livewire:move
+    livewire:publish
+    livewire:stubs
+    livewire:upgrade
+    package:discover {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"livewire:discover\" is not defined.
+
+Did you mean one of these?
+    livewire:attribute
+    livewire:configure-s3-upload-cleanup
+    livewire:copy
+    livewire:delete
+    livewire:form
+    livewire:layout
+    livewire:make
+    livewire:move
+    livewire:publish
+    livewire:stubs
+    livewire:upgrade
+    package:discover at /var/www/html/vendor/symfony/console/Application.php:725)
+[stacktrace]
+#0 /var/www/html/vendor/symfony/console/Application.php(283): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 /var/www/html/artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#5 {main}
+"} 
